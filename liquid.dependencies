@@ -6,9 +6,9 @@
    "revision": "cm-11.0"
  },
  {
-   "remote": "ls",
+   "remote": "tm",
    "repository": "proprietary_vendor_lge",
    "target_path": "vendor/lge",
-   "revision": "kitkat"
+   "revision": "cm-11.0"
  }
 ]
