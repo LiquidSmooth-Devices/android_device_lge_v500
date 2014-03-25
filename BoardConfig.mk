@@ -41,6 +41,8 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 TARGET_KERNEL_SOURCE := kernel/lge/v500
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3 lpj=67677 androidboot.hardware=awifi vmalloc=600M
 TARGET_KERNEL_CONFIG := cyanogenmod_v500_defconfig
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := sm-arm-eabi-4.7
+TARGET_GCC_VERSION_ARM := sm-arm-eabi-4.7
 
 
 BOARD_USES_ALSA_AUDIO:= true
