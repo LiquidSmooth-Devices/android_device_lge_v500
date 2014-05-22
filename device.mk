@@ -189,6 +189,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.radio.noril=true \
 	ro.carrier=wifi-only
 
+# OTA ID
+PRODUCT_PROPERTY_OVERRIDES += \
+    otaupdater.otaid=liquidv500
 
 $(call inherit-product, hardware/qcom/msm8960/msm8960.mk)
 
