@@ -92,8 +92,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.audio.handset.mic=digital \
 	persist.audio.fluence.mode=endfire \
 	persist.audio.lowlatency.rec=false \
-	af.resampler.quality=4 \
-	otaupdater.otaid=liquidv500
+	af.resampler.quality=4
 
 #Upto 3 layers can go through overlays
 PRODUCT_PROPERTY_OVERRIDES += persist.hwc.mdpcomp.enable=true
@@ -189,9 +188,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.radio.noril=true \
 	ro.carrier=wifi-only
 
-# OTA ID
-PRODUCT_PROPERTY_OVERRIDES += \
-    otaupdater.otaid=liquidv500
 
 $(call inherit-product, hardware/qcom/msm8960/msm8960.mk)
 
